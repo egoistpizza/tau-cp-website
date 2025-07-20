@@ -137,9 +137,9 @@ export const commands: Record<string, (args: string[]) => Promise<string> | stri
     return '';
   },
   mail: () => {
-    window.open(`mailto:tau.compp@gmail.com`);
+    window.open(`mailto:info@taucp.org`);
 
-    return `tau.compp@gmail.com adresine yönlendirildiniz.`;
+    return `info@taucp.org adresine yönlendirildiniz.`;
   },
   hava: async (args: string[]) => {
     const city = args.join('+');
