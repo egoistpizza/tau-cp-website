@@ -1,54 +1,37 @@
-# [M4TT72 | Terminal](https://term.m4tt72.com)
+# Türk-Alman Üniversitesi Competitive Programming Topluluğu Resmi Websitesi
 
-A terminal style website
+Bu proje TAÜ CP Topluluğu websitesinin kaynak kodlarını içermektedir. Competitive Programming alanında çalışmalar yürüten topluluğumuz hakkında daha fazla bilgiye bu proje aracılığıyla erişebilirsiniz.
 
-![screenshot](/docs/screenshot.png)
+Web sitesini canlı incelemek için 👉 **[taucp.org](https://taucp.org)** adresini ziyaret edebilirsiniz.
 
-## IMPORTANT
+## 🙌 Katkıda Bulun
 
-This is a new version of [m4tt72/terminal](https://github.com/m4tt72/terminal), which is built with [Svelte](https://svelte.dev/).
+Bu proje, topluluk katkılarına açıktır.
+Her türlü katkı, hata bildirimi veya öneri bizim için değerlidir.
 
-If you are looking for the old version, please check out the [v2 branch](https://github.com/m4tt72/terminal/tree/v2).
+[m4tt72/terminal](https://github.com/m4tt72/terminal) projesinden forklanarak oluşturulmuştur.
 
-The old version is built with [React](https://reactjs.org/), and it is no longer maintained.
+Lütfen katkıda bulunmaktan çekinmeyin, birlikte daha iyi hale getirebiliriz!
 
-Thanks!
+## 📄 Lisans
 
-## Quick Start
+Bu proje MIT Lisansı ile lisanslanmıştır.
 
-### Using docker (recommended)
+## 🚀 Kullanılan Teknolojiler
 
-```bash
-docker run -d --name terminal -p 3000:3000 ghcr.io/m4tt72/terminal
-```
+- [Svelte 4](https://svelte.dev/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [PostCSS](https://postcss.org/)
 
-### Using npm/yarn
 
-1. Install dependencies:
+## 🔧 Kurulum
 
-```bash
-yarn install
-```
-
-3. Run the server:
+Proje dosyasını klonlayın ve bağımlılıkları yükleyin:
 
 ```bash
-yarn dev
-```
-
-## Themes
-
-![themes](/docs/screenshot.gif)
-
-[Here's](/docs/themes) a list of available themes.
-
-
-## Contributing
-
-Please feel free to pull requests or log issues.
-
-Thanks!
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=m4tt72/terminal&type=Date)](https://star-history.com/#m4tt72/terminal&Date)
+git clone https://github.com/egoistpizza/tau-cp-website.git
+cd tau-cp-website
+npm install
+npm run dev

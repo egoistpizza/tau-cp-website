@@ -45,7 +45,7 @@
           $history = [...$history, { command, outputs: [output] }];
         }
       } else {
-        const output = `${commandName}: command not found`;
+        const output = `${commandName} komutu bulunamadı. 'yardım' komutuyla kullanılabilir komutlara erişebilirsiniz.`;
 
         $history = [...$history, { command, outputs: [output] }];
       }
