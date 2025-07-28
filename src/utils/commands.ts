@@ -72,6 +72,8 @@ export const commands: Record<string, (args: string[]) => Promise<string> | stri
     Sosyal medyadan bizi takip et!
 
     - Instagram: https://www.instagram.com/infxofficial/
+
+    - LinkedIn: https://www.linkedin.com/company/tau-informatix/
     `,
   tarih: () => new Date().toLocaleString(),
   vi: () => `neden vi kullanasın ki? 'emacs'i dene!`,
